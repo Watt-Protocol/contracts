@@ -1,0 +1,11 @@
+{
+  "network": "base",
+  "chainId": 8453,
+  "deployer": "<populate_after_deploy>",
+  "timestamp": "",
+  "contracts": {
+    "MeterRegistry": "",
+    "WATTToken": "",
+    "Treasury": ""
+  }
+}

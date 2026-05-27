@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+!.env.example
+cache/
+artifacts/
+coverage/
+coverage.json
+typechain-types/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

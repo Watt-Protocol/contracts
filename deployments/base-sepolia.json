@@ -1,0 +1,24 @@
+{
+  "network": "base-sepolia",
+  "chainId": 84532,
+  "deployer": "<run npm run deploy:base-sepolia to populate>",
+  "timestamp": "",
+  "contracts": {
+    "MeterRegistry": "",
+    "WATTToken": "",
+    "Treasury": ""
+  },
+  "legacy": {
+    "note": "Earlier single-file WattToken (see contracts/legacy/WattToken.sol). Different bytecode from the modular WATTToken + MeterRegistry + Treasury stack.",
+    "WattToken_Sepolia_examples": [
+      {
+        "address": "0x342b847c2Da851D902Ad492b2405D317811A86AD",
+        "explorer": "https://sepolia.basescan.org/address/0x342b847c2Da851D902Ad492b2405D317811A86AD"
+      },
+      {
+        "address": "0xf07ce10cE718fEe22dFEe06B4048B734bC95b954",
+        "explorer": "https://sepolia.basescan.org/address/0xf07ce10cE718fEe22dFEe06B4048B734bC95b954"
+      }
+    ]
+  }
+}

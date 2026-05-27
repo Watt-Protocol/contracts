@@ -1,0 +1,33 @@
+{
+  "name": "@watt-protocol/contracts",
+  "version": "0.2.1",
+  "description": "WATT Protocol smart contracts — $WATT token, meter registry, treasury (Base)",
+  "license": "MIT",
+  "keywords": [
+    "watt-protocol",
+    "solidity",
+    "hardhat",
+    "base",
+    "esg",
+    "energy"
+  ],
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "deploy:base-sepolia": "hardhat run scripts/deploy.js --network base-sepolia",
+    "deploy:base": "hardhat run scripts/deploy.js --network base",
+    "verify:base-sepolia": "hardhat run scripts/verify.js --network base-sepolia",
+    "verify:legacy-watt": "hardhat run scripts/verify-legacy-watt.js",
+    "verify:base": "hardhat run scripts/verify.js --network base",
+    "mint-test:base-sepolia": "hardhat run scripts/mint-test.js --network base-sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.17"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0"
+  }
+}
