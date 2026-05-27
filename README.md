@@ -21,6 +21,15 @@ Contract addresses and verification steps: [`deployments/`](deployments/). Secre
 - **Base** (chain id 8453) and **Base Sepolia** (84532)
 - Gas-conscious patterns: custom errors, immutable registry reference, optimizer runs 200
 
+## Related repositories
+
+| Repo | Role |
+|------|------|
+| [server](https://github.com/Watt-Protocol/server) | API + Supabase migrations |
+| [watt-minter](https://github.com/Watt-Protocol/watt-minter) | Payouts |
+| [meter-firmware](https://github.com/Watt-Protocol/meter-firmware) | Telemetry |
+| [meter-app](https://github.com/Watt-Protocol/meter-app) | Mobile UI |
+
 ## Repository layout
 
 - **`contracts/`** — `WATTToken.sol`, `MeterRegistry.sol`, `Treasury.sol`, `interfaces/`, `legacy/WattToken.sol` (frozen reference for older Sepolia deployments)
